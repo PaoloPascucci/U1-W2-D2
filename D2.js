@@ -12,8 +12,8 @@ console.log(n1 >= n2 ? n1 : n2);
 /* ESERCIZIO 2
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
 */
-let n3 = 35;
 /* SCRIVI QUI LA TUA RISPOSTA */
+let n3 = 35;
 console.log(n3 !== n1 ? "not equal" : "Il numero è uguale a 5.");
 
 
@@ -28,11 +28,11 @@ console.log(n3 % n1 === 0 ? "divisibile per 5" : "no");
 /* ESERCIZIO 4
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
 */
+/* SCRIVI QUI LA TUA RISPOSTA */
 let n4 = 24;
 let n5 = 19;
 let somma = n4 + n5
 console.log(n4, n5, somma === 8 ? "addizione uguale a 8" : "diverso da 8. Risultato = " + somma);
-/* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 5
   Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile "totalShoppingCart".
@@ -138,26 +138,26 @@ console.log(x % 2 === 0 ? "Pari" : "Dispari");
 
 /* ESERCIZIO 10
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
-  */
-let val = 7;
-let val2 = 3;
-let val3 = 34;
-if (val < 10) {
-  console.log("Meno di 10");
-} else if (val < 5) {
-  console.log("Meno di 5");
-} else {
-  console.log("Uguale a 10 o maggiore");
-}
-if (val2 < 5) {
-  console.log("Meno di 5");
-}
-if (val3 > 10) {
-  console.log("Uguale a 10 o maggiore");
-}
-
-/* SCRIVI QUI LA TUA RISPOSTA */
-
+*/
+ 
+ /* SCRIVI QUI LA TUA RISPOSTA */
+ let val = 7;
+ let val2 = 3;
+ let val3 = 34;
+ if (val < 10) {
+   console.log("Meno di 10");
+ } else if (val < 5) {
+   console.log("Meno di 5");
+ } else {
+   console.log("Uguale a 10 o maggiore");
+ }
+ if (val2 < 5) {
+   console.log("Meno di 5");
+ }
+ if (val3 > 10) {
+   console.log("Uguale a 10 o maggiore");
+ }
+ 
 /* ESERCIZIO 11
   Fornito il seguente oggetto, scrivi del codice per aggiungere una proprietà "city", il cui valore sarà "Toronto".
 */
